@@ -1,5 +1,5 @@
 {
-  "name": "type-safe-atomic-css",
+  "name": "ve-utility-example",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@vanilla-extract/css": "^1.7.2",
+    "@radix-ui/colors": "0.1.8",
+    "@vanilla-extract/css": "1.7.2",
     "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
-},
-"devDependencies": {
+  },
+  "devDependencies": {
     "@types/node": "18.6.2",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
-    "@vanilla-extract/next-plugin": "^2.0.2",
+    "@vanilla-extract/next-plugin": "2.0.2",
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.3",
     "typescript": "4.7.4"
